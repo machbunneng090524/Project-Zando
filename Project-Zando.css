@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav1 {
+    position: sticky;
+    top: 70px;
+}
+.navbar{
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+}
+.text-center {
+    z-index: 1000;
+    position: sticky;
+}
+.menu{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 15px 4px;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 2px 10px #ccc;
+}
+.men, .women , .boys, .girls{
+    font-family: "Kanit", sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+/* dropdown */
+.submenu {
+    display: flex;
+    padding: 20px;
+}
+.down{
+    display: flex;
+}
+
+.column {
+    margin-right: 30px;
+    
+}
+
+.column h3 {
+    margin-top: 0;
+    font-size: 16px;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    font-weight: bold;
+    color: black;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    list-style: none;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+    background-color: burlywood;
+}
+
+.sale {
+    color: #FF1493;
+}
+
+.sale ul li a {
+    color: #FF1493;
+}
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.fav{
+    display: flex;
+    justify-content: space-between;
+}
+b{
+    color: red;
+}
+.navbar-brand:hover {
+    transform: scale(1.009);
+    filter: brightness(9px);
+    filter: blur(50px);
+    box-shadow: deeppink;
+    filter: drop-shadow(2px 4px 8px rgb(97, 97, 216));
+} 
+.text{
+    color: black;
+}
+.text-end {
+    color: black;
+}
+.text1{
+    position: relative;
+    left: 25px;
+    top: -25px;
+    font-size: 20px;
+}
+.icon {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+.icon4{
+    font-size: 20px;
+}
+.text2{
+    position: relative;
+    left: 25px;
+    top: -37px;
+    font-size: 20px;
+}
+.icon2 {
+    position: relative;
+    top: -12px;
+}
+.image{
+    transition: 0.2s;
+}
+.container .image:hover{
+    transform: scale(1.009);
+    filter: brightness(9px);
+    filter: blur(50px);
+    box-shadow: lime; 
+    filter: drop-shadow(2px 4px 8px rgb(48, 48, 223)); 
+}
+.card-img-top{
+    transition: 0.2s;
+}
+.card-img-top:hover{
+    transform: scale(1.009);
+    filter: brightness(9px);
+    filter: blur(50px);
+    box-shadow: lime; 
+    filter: drop-shadow(2px 4px 8px rgb(62, 62, 215)); 
+}
+.icon3{
+    position: relative;
+    top: 10px;
+}
+.facebook {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+.ig {
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+}
+.text3  {
+    position: relative;
+    top: -15px;
+    left: 30px;
+    font-size: 20px;
+}
+.text4  {
+    position: relative;
+    top: -13px;
+    left: 30px;
+    font-size: 20px;
+}
+.tk {
+    position: relative;
+    font-size: 20px;
+}
+.text5{
+    position: relative;
+    top: -25px;
+    left: 30px;
+    font-size: 20px;
+}
+.qu {
+    position: relative;
+    font-size: 20px;
+    top: -12px;
+}
+.pp {
+    position: relative;
+    font-size: 20px;
+    top: -20px;
+}
+.text6{
+    position: relative;
+    top: -40px;
+    left: 30px;
+    font-size: 20px;
+}
+.text7{
+    position: relative;
+    top: -52px;
+    left: 30px;
+    font-size: 20px;
+}
+.text8{
+    position: relative;
+    top: -39px;
+    left: 30px;
+    font-size: 20px;
+}
+@media (max-width: 990px ){
+    .dropdown {
+        display: none;
+    }
+    .collapse {
+        position: relative;
+        top: 10px;
+        left: 100px;
+    }
+}
+@media (min-width: 990px ){
+    .dropdown {
+        display: block;
+    }
+    .collapse {
+        position: relative;
+        top: 10px;
+        left: 100px;
+    }
+}
+@media (max-width: 900px ){
+    .dropdown {
+        display: none;
+    }
+    .collapse {
+        position: relative;
+        top: 10px;
+        left: 80px;
+    }
+}
+@media (max-width: 850px ){
+    .dropdown {
+        display: none;
+    }
+    .collapse {
+        position: relative;
+        top: 10px;
+        left: 60px;
+    }
+}
+@media (max-width: 627px ){
+    .dropdown {
+        display: none;
+    }
+    .collapse {
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+}
+@media (max-width: 554px ){
+    .dropdown {
+        display: none;
+    }
+    .collapse {
+        position: relative;
+        top: 10px;
+        left: 60px;
+    }
+    .navbar-brand{
+        position: relative;
+        top: 5px;
+        left: 80px;
+    }
+    .form-control{
+        position: relative;
+        top: 5px;
+        left: 80px;
+    }
+}
+@media (max-width: 428px ){
+    .dropdown {
+        display: none;
+    }
+    .collapse {
+        position: relative;
+        top: 10px;
+        left: 60px;
+    }
+    .navbar-brand{
+        position: relative;
+        top: 5px;
+        left: 40px;
+    }
+    .form-control{
+        position: relative;
+        top: 5px;
+        left: 40px;
+    }
+}
+.container-fluid .dropdown:hover {
+    display: block;
+}
+p {
+    text-decoration: line-through;
+}
+.card .non-dis{
+    color: black;
+    margin-top: -18px;
+}
+.pay{
+    position: relative;
+    left: -360px;
+}
